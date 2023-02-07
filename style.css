@@ -172,6 +172,14 @@ footer {
     align-content: center;
 }
 
+.info svg {
+    width: 0.8rem;
+}
+
+.info svg path {
+    fill: #343434;
+}
+
 .socials {
     display: grid;
     gap: 0.7rem;
