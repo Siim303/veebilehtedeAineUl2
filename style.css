@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,700&display=swap');
 
+/**
+* COOKBOOKi stylesheet
+*
+* Date: 07.02.2023
+* Author: Siim Turban
+*
+*
+* Kasutasin palju parentist childile viitamist (.class>element>element),
+* sest olen harjunud kasutama CSS'i keelt SASS või SCSS.
+ */
+
 * {
     font-family: ROBOTO, sans-serif;
     text-decoration: none;
