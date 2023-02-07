@@ -126,6 +126,7 @@ main {
 }
 
 .overlay {
+    white-space: nowrap;
     font-weight: 500;
     font-size: 1.2rem;
     opacity: 1;
@@ -238,6 +239,16 @@ footer {
         line-height: 1.3rem;
     }
 }
+@media only screen and (max-width: 370px) {
+    .headerContainer > nav > ul {
+        gap: 3rem;
+    }
+    .overlay {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}
+
 
 
 
